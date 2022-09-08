@@ -10,6 +10,8 @@ namespace Time_Server
         private static List<Socket> _clientSockets = new List<Socket>();
         private static Socket _serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
+        //https://www.youtube.com/watch?v=xgLRe7QV6QI&ab_channel=Brian
+
         static void Main(string[] args)
         {
             Console.Title = "Server";
